@@ -17,3 +17,7 @@
 .int_title::after{
   left: 0px;
 }
+.breadcrumbs
+{
+  margin-left:290px;
+}
