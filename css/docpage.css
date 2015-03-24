@@ -28,7 +28,7 @@
   position: relative;
   color: white;
   left: -5px;
-  top: 3px;
+  top: 4px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -124,7 +124,7 @@ div.docsidebar ul li {
   background-color: #fff;
   border-right: 1px solid #f5f6f7;
 }
-.docsidebarwrapper > ul > .toctree-l1 > ul.current {
+.docsidebarwrapper > ul > ul.current {
   background-color: #fff;
   border-right: 1px solid #f5f6f7;
   margin: 0px;
@@ -162,13 +162,14 @@ div.docsidebar li.toctree-l3 > a {
   text-indent: -12px;
   padding-left: 48px;
 }
-.expand-icon {
-  vertical-align: 1.5px;
-  font-size: 0.6em;
-  width: 0.5em;
-  display: inline-block;
+span.expand, span.contract{
+  float: left;
+  width: 0px;
+  cursor: pointer;
 }
-
+span.contract {
+  display: none;
+}
 /****************************
 /* Responsive media queries
 /***************************/
