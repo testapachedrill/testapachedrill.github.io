@@ -76,7 +76,6 @@ Drill.Docs = {
     })
   },
 
-
   make_current : function(that) {
     Drill.Docs.remove_current();
     $(that).addClass("current");

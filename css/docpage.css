@@ -1,3 +1,29 @@
+/*****************
+ Categories Bar
+*****************/
+
+div.toc-categories {
+  background-color: #ccc;
+  line-height: 48px;
+  font-size: 18px;
+  color: black;
+  display: none;
+  overflow: auto;
+}
+div.toc-categories .pull-left {
+  float: left;
+  margin-left: 10px;
+}
+
+div.toc-categories .pull-right {
+  float: right;
+  margin-right: 10px;
+}
+
+div.toc-categories a {
+  text-decoration: none;
+}
+
 /******************
  Search Bar
 ******************/
@@ -53,14 +79,14 @@
 *****************/
 
 .int_text {
-  margin-top:60px;
+  margin-top:30px;
   margin-left: 30px;
 }
 .int_title
 {
-  margin-left: 350px;
+  margin-left: 293px;
   text-align: left;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .int_title::after{
   left: 0px;
@@ -177,20 +203,34 @@ span.contract {
 /* Responsive media queries
 /***************************/
 
-@media (min-width: 320px) {
-
+@media (max-width: 320px) {
+  .int_text {
+    width: auto;
+  }
+  .int_title {
+    width: auto;
+  }
 }
 @media (max-width: 768px) {
+  .int_text {
+    width: auto;
+  }
+  .int_title {
+    width: auto;
+  }
   
 }
 /* Need menu click to make sidebar appear */
 
 @media (max-width: 1024px) {
-  #menu ul li.expand-toc-icon {
+  div.toc-categories {
     display: block;
+  }
+
+  div.toc-categories .expand-toc-icon {
+    font-size: 24px;
     /*padding-right: 10px;*/
     color: white;
-    float: left;
   }
 
   .expand-toc-icon:hover,
@@ -215,19 +255,25 @@ span.contract {
   .int_text .main-content{
     margin-left: 0;
   }
+  .int_title {
+    margin-left: 63px;
+  }
+  .int_title h1 {
+    font-size: 28px;
+  }
 }
 
 
 @media (min-width: 1025px) {
+  nav.breadcrumbs {
+    margin-left: 293px;
+  }
   .main-content
   {
     margin-left: 293px;
   }
   #menu ul li.logo {
     padding-left: 30px;
-  }
-  #menu ul li.expand-toc-icon {
-    display: none;
   }
 }
 

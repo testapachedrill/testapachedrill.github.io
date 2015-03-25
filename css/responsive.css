@@ -1,8 +1,8 @@
-.expand-toc-icon{
-  display:none;
-}
 nav.breadcrumbs{
   margin-left: 0px;
+}
+.toc-categories {
+  display:none;
 }
 @media (min-width: 320px) {
 
