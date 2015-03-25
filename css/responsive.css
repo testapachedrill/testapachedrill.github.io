@@ -1,13 +1,18 @@
+.expand-toc-icon{
+  display:none;
+}
+nav.breadcrumbs{
+  margin-left: 0px;
+}
+@media (min-width: 320px) {
+
+}
+@media (max-width: 768px) {
+  
+}
 @media (min-width: 1024px) {
-  nav.breadcrumbs
-  {
-    margin-left:293px;
-  }
 }
 @media (max-width: 1024px) {
-  nav.breadcrumbs {
-    margin-left: 0px;
-  }
 }
 
 @media (max-width: 1393px) {

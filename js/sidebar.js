@@ -3,7 +3,26 @@ var Drill = Drill || {};
 Drill.Docs = {
   init : function(){
     Drill.Docs.watchDocTocClicks();
+    Drill.Docs.watchExpandTocClicks();
     
+  },
+
+  watchExpandTocClicks : function () {
+    $(".expand-toc-icon").on("click", function(){
+      if($(".int_text .sidebar").css('left') == '0px'){
+        Drill.Docs.contractSidebar();
+      } else {
+        Drill.Docs.expandSidebar();
+      }
+    })
+  },
+
+  expandSidebar : function(){
+    $(".int_text .sidebar").addClass("force-expand");
+  },
+
+  contractSidebar : function() {
+    $(".int_text .sidebar").removeClass("force-expand");
   },
 
   l2nodes_with_children : function(){
