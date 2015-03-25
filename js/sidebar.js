@@ -1,5 +1,33 @@
 var Drill = Drill || {};
 
+Drill.Site = {
+  init : function(){
+    Drill.Site.watchExpandMenuClicks();
+  },
+
+  watchExpandMenuClicks : function(){
+    $("#menu ul li.expand-menu a").on("click", function(){
+       if( Drill.Site.menuIsExpanded() ){
+        Drill.Site.contractMenu();
+      } else {
+        Drill.Site.expandMenu();
+      }
+    })
+  },
+
+  menuIsExpanded : function() {
+    return ($("#menu ul li.d").css('display') == 'block');
+  },
+
+  expandMenu: function(){
+    $("#menu ul li").addClass("force-expand");
+  },
+
+  contractMenu: function() {
+    $("#menu ul li").removeClass("force-expand");
+  }
+}
+
 Drill.Docs = {
   init : function(){
     Drill.Docs.watchDocTocClicks();
@@ -96,4 +124,5 @@ Drill.Docs = {
 
 $(function(){
   Drill.Docs.init();
+  Drill.Site.init();
 });

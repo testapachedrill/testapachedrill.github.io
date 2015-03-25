@@ -1,7 +1,7 @@
 .breadcrumbs
 {
   display: block;
-  padding: 0.5625rem 0.875rem 0.5625rem;
+  padding: 0.5625rem 0 0.5625rem 0;
   overflow: hidden;
   margin-top: 55px;
   list-style: none;
