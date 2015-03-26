@@ -38,6 +38,21 @@ nav.breadcrumbs{
   #menu ul li, #menu ul li.d{
     display: none;
   }
+  .home_txt p {
+    width: auto;
+  }
+  .int_title {
+    text-align: left;
+    width: auto;
+    margin: 20px 20px 0px 10px;
+  }
+  .int_title:after {
+    left: 0px;
+  }
+  .int_text {
+    width: auto;
+    margin: 60px 10px 100px 10px;
+  }
   #menu ul li.force-expand, #menu ul li.d.force-expand {
     display:inline-block;
   }
