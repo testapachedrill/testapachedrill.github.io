@@ -60,7 +60,7 @@ cluster. Then, the ODBC driver submits a query after selecting a Drillbit. All
 Drillbits in the cluster process the query and the Drillbit that received the
 query returns the query results.
 
-![ODBC to Quorum]({{ site.baseurl }}/docs/img/ODBC_to_Quorum.png)
+![ODBC to Quorum](/docs/img/ODBC_to_Quorum.png)
 
 In a production environment, you should connect to a ZooKeeper Quorum for a
 more reliable connection. If one Drillbit is not available, another Drillbit
@@ -75,7 +75,7 @@ If you connect directly to a Drillbit that is part of a cluster, all Drillbits
 in the cluster process the query. In either case, the Drillbit that the ODBC
 driver connected to returns the query results.
 
-![]({{ site.baseurl }}/docs/img/ODBC_to_Drillbit.png)
+![](/docs/img/ODBC_to_Drillbit.png)
 
 ### Catalog
 

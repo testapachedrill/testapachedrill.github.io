@@ -60,7 +60,7 @@ To define the Drill JDBC Driver, complete the following steps:
 
 1. In the SQuirreL toolbar, select **Drivers > New Driver**. The Add Driver dialog box appears.
   
-    ![drill query flow]({{ site.baseurl }}/docs/img/40.png)
+    ![drill query flow](/docs/img/40.png)
 
 2. Enter the following information:
 
@@ -68,7 +68,7 @@ To define the Drill JDBC Driver, complete the following steps:
   
 3. Click **OK**. The SQuirreL client displays a message stating that the driver registration is successful, and you can see the driver in the Drivers panel.  
 
-   ![drill query flow]({{ site.baseurl }}/docs/img/52.png)
+   ![drill query flow](/docs/img/52.png)
 
 #### B. Create an Alias
 
@@ -77,7 +77,7 @@ To create an alias, complete the following steps:
 1. Select the **Aliases** tab.
 2. In the SQuirreL toolbar, select **Aliases >****New Alias**. The Add Alias dialog box appears.
     
-    ![drill query flow]({{ site.baseurl }}/docs/img/19.png)
+    ![drill query flow](/docs/img/19.png)
     
 3. Enter the following information:
   
@@ -118,11 +118,11 @@ To create an alias, complete the following steps:
      </tr></tbody></table>
 4. Click **Ok**. The Connect to: dialog box appears.  
 
-    ![drill query flow]({{ site.baseurl }}/docs/img/30.png)
+    ![drill query flow](/docs/img/30.png)
    
 5. Click **Connect**. SQuirreL displays a message stating that the connection is successful.
   
-    ![drill query flow]({{ site.baseurl }}/docs/img/53.png)
+    ![drill query flow](/docs/img/53.png)
      
 6. Click **OK**. SQuirreL displays a series of tabs.
 
@@ -141,11 +141,11 @@ To query sample data with Squirrel, complete the following steps:
         SELECT * FROM cp.`employee.json`;
           
      Example:  
-     ![drill query flow]({{ site.baseurl }}/docs/img/11.png)
+     ![drill query flow](/docs/img/11.png)
 
 3. Press **Ctrl+Enter** to run the query. The following query results display: 
   
-     ![drill query flow]({{ site.baseurl }}/docs/img/42.png) 
+     ![drill query flow](/docs/img/42.png) 
 
 You have successfully run a Drill query from the SQuirreL client.
 

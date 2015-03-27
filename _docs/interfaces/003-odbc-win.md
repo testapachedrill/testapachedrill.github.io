@@ -32,7 +32,7 @@ MicroStrategy, and Toad.
 The following figure shows how a BI tool on Windows uses an ODBC connection to
 access data from a Hive table:
 
-![BI to Drill Interface]({{ site.baseurl }}/docs/img/BI_to_Drill_2.png)
+![BI to Drill Interface](/docs/img/BI_to_Drill_2.png)
 
 The following components provide applications access to Drill data sources:
 

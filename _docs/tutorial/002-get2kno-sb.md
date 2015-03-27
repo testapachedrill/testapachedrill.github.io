@@ -32,7 +32,7 @@ Take a look at the pre-configured storage plugins for the sandbox by opening the
 
 The control panel for managing storage plugins appear.
 
-![sandbox plugin]({{ site.baseurl }}/docs/img/get2kno_plugin.png)
+![sandbox plugin](/docs/img/get2kno_plugin.png)
 
 You see that the following storage plugin controls:
 
