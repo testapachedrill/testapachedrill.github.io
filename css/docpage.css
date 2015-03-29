@@ -220,9 +220,14 @@ span.contract {
   }
   
 }
-/* Need menu click to make sidebar appear */
+/* Browser styles when browser max width is the follow. 
+   Need menu click to make sidebar appear */
 
 @media (max-width: 1024px) {
+  #footer {
+    margin-left: 0px;
+  }
+
   div.toc-categories {
     display: block;
   }
@@ -268,6 +273,10 @@ span.contract {
   nav.breadcrumbs {
     margin-left: 293px;
   }
+  #footer {
+    margin-left: 293px;
+    text-align: left;
+  }
   .main-content
   {
     margin-left: 293px;
@@ -276,10 +285,3 @@ span.contract {
     padding-left: 30px;
   }
 }
-
-@media (max-width: 1393px) {
-    #menu ul li.logo {
-      /*padding-left: 30px;*/
-    }
-}
-
