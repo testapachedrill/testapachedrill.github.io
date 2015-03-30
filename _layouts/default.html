@@ -4,14 +4,14 @@
 {% include head.html %}
 
 <body onResize="resized();">
+<div class="footer-push-wrapper">
+  {% include menu.html %}
+  {% include breadcrumbs.html %}
+  {% include doc_toc_categories.html %}
 
-{% include menu.html %}
-{% include breadcrumbs.html %}
-{% include doc_toc_categories.html %}
-
-{{ content }}
-
-{% include footer.html %}
-{% include scripts.html %}
+  {{ content }}
+  {% include footer.html %}
+  {% include scripts.html %}
+</div>
 </body>
 </html>
