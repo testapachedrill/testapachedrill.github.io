@@ -1,8 +1,9 @@
 ---
 title: "File System Storage Plugin"
 parent: "Storage Plugin Configuration"
+previous: '/docs/workspaces'
+next: '/docs/hbase-storage-plugin'
 ---
-[Previous](/docs/workspaces)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/hbase-storage-plugin)
 
 You can register a storage plugin instance that connects Drill to a local file
 system or a distributed file system registered in `core-site.xml`, such as S3

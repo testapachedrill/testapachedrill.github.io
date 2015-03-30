@@ -1,8 +1,9 @@
 ---
 title: "Storage Plugin Registration"
 parent: "Connect to a Data Source"
+previous: '/docs/connect-to-a-data-source'
+next: '/docs/storage-plugin-configuration'
 ---
-[Previous](/docs/connect-to-a-data-source)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/storage-plugin-configuration)
 
 You connect Drill to a file system, Hive, HBase, or other data source using storage plugins. Drill includes a number of storage plugins in the installation. On the Storage tab of the Web UI, you can view, create, reconfigure, and register a storage plugin. To open the Storage tab, go to `http://<IP address>:8047/storage`, where IP address is any one of the installed drill bits:
 
