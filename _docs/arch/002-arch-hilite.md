@@ -1,8 +1,9 @@
 ---
 title: "Architectural Highlights"
 parent: "Architectural Overview"
+previous: '/docs/core-modules-within-a-drillbit'
+next: '/docs/flexibility'
 ---
-[Previous](/docs/core-modules-within-a-drillbit)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/flexibility)
 
 The goal for Drill is to bring the **SQL Ecosystem** and **Performance** of
 the relational systems to **Hadoop scale** data **WITHOUT** compromising on

@@ -1,7 +1,8 @@
 ---
 title: "Install Drill"
+previous: "/docs/analyzing-yelp-json-data-with-apache-drill"
+next: "/docs/apache-drill-in-10-minutes"
 ---
-[Previous](/docs/analyzing-yelp-json-data-with-apache-drill)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/apache-drill-in-10-minutes)
 
 You can install Drill in embedded mode or in distributed mode. Installing
 Drill in embedded mode does not require any configuration, which means that

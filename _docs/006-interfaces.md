@@ -1,7 +1,8 @@
 ---
 title: "ODBC/JDBC Interfaces"
+previous: "/docs/mapr-db-format/"
+next: "/docs/using-the-mapr-odbc-driver-on-windows"
 ---
-[Previous](/docs/mapr-db-format/)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/using-the-mapr-odbc-driver-on-windows)
 
 You can connect to Apache Drill through the following interfaces:
 

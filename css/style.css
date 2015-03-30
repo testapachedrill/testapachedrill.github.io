@@ -5,10 +5,23 @@
 
 * { outline:none; }
 
+html {
+  height: 100%;
+  position: relative;
+}
+
 body {
 	font-family:"Lato";
 	margin:0;
-	padding:0;	
+	padding:0;
+  height: 100%;
+}
+
+.footer-push-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px; /* negative value of footer height */
 }
 
 .mw { min-width:999px; width:100%; }
@@ -613,6 +626,9 @@ table.intro a {
 	padding:0;
 }
 
+.push {
+  height: 150px; /* same height as footer */
+}
 #footer {
 	background:#232323;
 	color:#FFF;
@@ -621,6 +637,7 @@ table.intro a {
 	line-height:20px;
 	padding:30px 0;
 	text-align:center;
+  height: 60px;
 }
 
 #footer .wrapper {
@@ -660,7 +677,7 @@ table.intro a {
 }
 
 .int_text {
-	margin:60px auto 100px auto;
+	margin:60px auto 30px auto;
 	width:780px;
 }
 
@@ -717,7 +734,7 @@ ul.num {
 	font-size:16px;
 	font-weight:lighter;
 	margin:auto;
-	margin-top:110px;
+	margin-top:60px;
 	padding:0 0 15px 0;
 	position:relative;
 	text-align:center;

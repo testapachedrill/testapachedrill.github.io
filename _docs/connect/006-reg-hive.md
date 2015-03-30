@@ -1,8 +1,9 @@
 ---
 title: "Hive Storage Plugin"
 parent: "Storage Plugin Configuration"
+previous: '/docs/hbase-storage-plugin'
+next: '/docs/drill-default-input-format'
 ---
-[Previous](/docs/hbase-storage-plugin)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/drill-default-input-format)
 
 You can register a storage plugin instance that connects Drill to a Hive data
 source that has a remote or embedded metastore service. When you register a

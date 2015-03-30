@@ -1,7 +1,8 @@
 ---
 title: "Architectural Overview"
+previous: '/docs'
+next: '/docs/core-modules-within-a-drillbit'
 ---
-[Previous](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/core-modules-within-a-drillbit)
 
 Apache Drill is a low latency distributed query engine for large-scale
 datasets, including structured and semi-structured/nested data. Inspired by

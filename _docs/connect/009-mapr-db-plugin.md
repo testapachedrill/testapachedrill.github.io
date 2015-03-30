@@ -1,8 +1,9 @@
 ---
 title: "MapR-DB Format"
 parent: "Connect to a Data Source"
+previous: '/docs/mongodb-plugin-for-apache-drill'
+next: '/docs/odbc-jdbc-interfaces'
 ---
-[Previous](/docs/mongodb-plugin-for-apache-drill)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/odbc-jdbc-interfaces)
 
 Drill includes a `maprdb` format for reading MapR-DB data. The `dfs` storage plugin defines the format when you install Drill from the `mapr-drill` package on a MapR node. The `maprdb` format plugin improves the
 estimated number of rows that Drill uses to plan a query. It also enables you

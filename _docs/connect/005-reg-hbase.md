@@ -1,8 +1,9 @@
 ---
 title: "HBase Storage Plugin"
 parent: "Storage Plugin Configuration"
+previous: '/docs/file-system-storage-plugin'
+next: '/docs/hive-storage-plugin'
 ---
-[Previous](/docs/file-system-storage-plugin)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/hive-storage-plugin)
 
 Register a storage plugin instance and specify a zookeeper quorum to connect
 Drill to an HBase data source. When you register a storage plugin instance for
