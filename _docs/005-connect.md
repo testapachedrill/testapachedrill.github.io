@@ -13,7 +13,7 @@ In addition to the connection string, the storage plugin configures the workspac
 The following image represents the storage plugin layer between Drill and a
 data source:
 
-![drill query flow]({{ site.baseurl }}/docs/img/storageplugin.png)
+![drill query flow](/docs/img/storageplugin.png)
 
 A storage plugin provides the following information to Drill:
 

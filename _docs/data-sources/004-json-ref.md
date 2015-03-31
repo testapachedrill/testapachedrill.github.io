@@ -406,7 +406,7 @@ Drill cannot read an array at the root level, outside an object.
 
 Workaround: Remove square brackets at the root of the object, as shown in the following example.
 
-![drill query flow]({{ site.baseurl }}/docs/img/datasources-json-bracket.png)
+![drill query flow](/docs/img/datasources-json-bracket.png)
 
 ### Complex nested data
 Drill cannot read some complex nested arrays unless you use a table alias.
@@ -445,7 +445,7 @@ Workaround: Remove empty arrays.
 
 For example, you cannot query the [City Lots San Francisco in .json](https://github.com/zemirco/sf-city-lots-json) data unless you make the following modification.
 
-![drill query flow]({{ site.baseurl }}/docs/img/json-workaround.png)
+![drill query flow](/docs/img/json-workaround.png)
 
 After removing the extraneous square brackets in the coordinates array, you can drill down to query all the data for the lots.
 
@@ -484,7 +484,7 @@ For example, the following object contains the reserved word key, which you need
 ### Schema changes
 Drill cannot read JSON files containing changes in the schema. For example, attempting to query an object having array elements of different data types cause an error:
 
-![drill query flow]({{ site.baseurl }}/docs/img/data-sources-schemachg.png)
+![drill query flow](/docs/img/data-sources-schemachg.png)
 
 Drill interprets numbers that do not have a decimal point as BigInt values. In this example, Drill recognizes the first two coordinates as doubles and the third coordinate as a BigInt, which causes an error. 
                 

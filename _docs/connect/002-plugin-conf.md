@@ -26,7 +26,7 @@ Click Update to reconfigure an existing, enabled storage plugin.
 ## Storage Plugin Attributes
 The following diagram of the dfs storage plugin briefly describes options you configure in a typical storage plugin configuration:
 
-![dfs plugin]({{ site.baseurl }}/docs/img/connect-plugin.png)
+![dfs plugin](/docs/img/connect-plugin.png)
 
 The following table describes the attributes you configure for storage plugins in more detail than the diagram. 
 

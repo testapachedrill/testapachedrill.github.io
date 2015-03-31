@@ -7,7 +7,7 @@ next: '/docs/storage-plugin-configuration'
 
 You connect Drill to a file system, Hive, HBase, or other data source using storage plugins. Drill includes a number of storage plugins in the installation. On the Storage tab of the Web UI, you can view, create, reconfigure, and register a storage plugin. To open the Storage tab, go to `http://<IP address>:8047/storage`, where IP address is any one of the installed drill bits:
 
-![drill-installed plugins]({{ site.baseurl }}/docs/img/plugin-default.png)
+![drill-installed plugins](/docs/img/plugin-default.png)
 
 The Drill installation registers the `cp`, `dfs`, `hbase`, `hive`, and `mongo` storage plugins instances by default.
 

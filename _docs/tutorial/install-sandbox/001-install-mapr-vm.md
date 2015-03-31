@@ -15,21 +15,21 @@ VMware Player or VMware Fusion:
 
     If you are running VMware Fusion, select** Import**.  
 
-    ![drill query flow]({{ site.baseurl }}/docs/img/vmWelcome.png)
+    ![drill query flow](/docs/img/vmWelcome.png)
 3. Navigate to the directory where you downloaded the MapR Sandbox with Apache Drill file, and select `MapR-Sandbox-For-Apache-Drill-4.0.1_VM.ova`.
 
-    ![drill query flow]({{ site.baseurl }}/docs/img/vmShare.png)
+    ![drill query flow](/docs/img/vmShare.png)
 
     The Import Virtual Machine dialog appears.
 4. Click **Import**. The virtual machine player imports the sandbox.
 
-    ![drill query flow]({{ site.baseurl }}/docs/img/vmLibrary.png)
+    ![drill query flow](/docs/img/vmLibrary.png)
 5. Select `MapR-Sandbox-For-Apache-Drill-4.0.1_VM`, and click **Play virtual machine**. It takes a few minutes for the MapR services to start.  
 
      After the MapR services start and installation completes, the following screen
 appears:
 
-     ![drill query flow]({{ site.baseurl }}/docs/img/loginSandBox.png)
+     ![drill query flow](/docs/img/loginSandBox.png)
 
      Note the URL provided in the screen, which corresponds to the Web UI in Apache
 Drill.

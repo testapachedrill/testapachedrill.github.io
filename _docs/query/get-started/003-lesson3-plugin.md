@@ -19,7 +19,7 @@ You can create a storage plugin using the Apache Drill Web UI.
   3. Open the Drill Web UI by navigating to <http://localhost:8047/storage>.   
      To open the Drill Web UI, SQLLine must still be running.
   4. In New Storage Plugin, type `myplugin`.  
-     ![new plugin]({{ site.baseurl }}/docs/img/ngram_plugin.png)    
+     ![new plugin](/docs/img/ngram_plugin.png)    
   5. Click **Create**.  
      The Configuration screen appears.
   6. Replace null with the following storage plugin definition, except on the location line, use the path to your `ngram` directory instead of the drilluser's path and give your workspace an arbitrary name, for example, ngram:
@@ -50,7 +50,7 @@ You can create a storage plugin using the Apache Drill Web UI.
      The success message appears briefly.
   8. Click **Back**.  
      The new plugin appears in Enabled Storage Plugins.  
-     ![new plugin]({{ site.baseurl }}/docs/img/ngram_plugin.png) 
+     ![new plugin](/docs/img/ngram_plugin.png) 
   9. Go back to the SQLLine prompt in the CLI, and list the storage plugins. Press RETURN in the CLI to get a prompt if necessary.
 
 Your custom plugin appears in the list and has two workspaces: the `ngram`

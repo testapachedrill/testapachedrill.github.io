@@ -44,7 +44,7 @@ generates highly efficient custom code for every single query for every single
 operator. Here is a quick overview of the Drill compilation/code generation
 process at a glance.
 
-![drill compiler]({{ site.baseurl }}/docs/img/58.png)
+![drill compiler](/docs/img/58.png)
 
 **Optimistic and pipelined query execution**
 
