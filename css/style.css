@@ -3,25 +3,24 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
 
-* { outline:none; }
+* {
+  outline:none;
+  margin: 0;
+}
 
 html {
   height: 100%;
-  position: relative;
 }
 
 body {
 	font-family:"Lato";
-	margin:0;
 	padding:0;
   height: 100%;
 }
 
-.footer-push-wrapper {
+.page-wrap{
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -60px; /* negative value of footer height */
+  margin-bottom: -60px; /* negative value of footer height */
 }
 
 .mw { min-width:999px; width:100%; }
@@ -626,8 +625,9 @@ table.intro a {
 	padding:0;
 }
 
-.push {
-  height: 150px; /* same height as footer */
+.page-wrap:after {
+  display: block;
+  content: "";
 }
 #footer {
 	background:#232323;
@@ -637,6 +637,8 @@ table.intro a {
 	line-height:20px;
 	padding:30px 0;
 	text-align:center;
+}
+#footer, .page-wrap:after {
   height: 60px;
 }
 
@@ -677,7 +679,7 @@ table.intro a {
 }
 
 .int_text {
-	margin:60px auto 30px auto;
+	margin:60px auto 60px auto;
 	width:780px;
 }
 
