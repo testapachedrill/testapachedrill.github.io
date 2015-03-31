@@ -88,11 +88,12 @@ div.doc-nav a{
 }
 div.doc-nav span.previous-toc {
   float: left;
-  width: 30%;
+  width: auto;
 }
 div.doc-nav span.back-to-toc {
   float: left;
-  width: 30%;
+  width: auto;
+  margin-left: 15%;
 }
 div.doc-nav span.next-toc {
   float: right;
@@ -119,6 +120,14 @@ div.doc-nav span.next-toc {
 }
 .int_title::after{
   left: 0px;
+}
+.main-content .edit-link {
+  position: relative;
+  float: right;
+  bottom: 110px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #333333;
 }
 
 /***************************
@@ -312,6 +321,9 @@ span.contract {
   }
 }
 @media (min-width: 1025px) {
+  .mw {
+    min-width: 100%;
+  }
   nav.breadcrumbs {
     margin-left: 293px;
   }
