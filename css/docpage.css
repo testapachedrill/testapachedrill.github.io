@@ -249,6 +249,13 @@ span.expand, span.contract{
 span.contract {
   display: none;
 }
+
+.permalink
+{
+  text-decoration:none;
+  font-size: 70%;
+  color: #1A6BC7;
+}
 /****************************
 /* Responsive media queries
 /***************************/

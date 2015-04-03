@@ -5,36 +5,7 @@
 var reelPointer = null;
 $(document).ready(function(e) {
 	
-	$("a.anchor").css({ display: "inline" });
-	if (location.hash) {
-		var hash = location.hash.replace("#","");
-		var aOffset = $('a[name='+hash+']').offset();
-		if (typeof aOffset !== 'undefined'){
-      $('html, body').animate({
-           'scrollTop': aOffset.top
-        }, 500);
-    }
-
-    // Offset page by the fixed menu's height when an internal anchor is present, i.e. /docs/json-data-model/#flatten-arrays
-    var idOffset = $('#'+hash).offset();
-    var fixedMenuHeight = $("#menu").height();
-    if (typeof idOffset !== 'undefined'){
-      $('html, body').animate({
-           'scrollTop': idOffset.top - fixedMenuHeight
-        }, 500);
-    }
-  }
-	/*
-	$("a[href~='#']").not("a[href^='http']").click(function(e) {
-		e.preventDefault();
-		var hash = $(this).attr("href").replace("#","");
-		var aOffset = $('a[name='+hash+']').offset();
-		$('html, body').animate({
-           'scrollTop': aOffset.top - 60
-        }, 500);	
-	});
-	*/
-	$(".aLeft").click(function() {
+  $(".aLeft").click(function() {
 		moveReel("prev");
 	});
 	$(".aRight").click(function() {
