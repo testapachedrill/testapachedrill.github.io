@@ -65,7 +65,7 @@ Drill.Site = {
   },
 
   copyToClipboard : function(text) {
-    return window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+    return window.prompt("Copy to clipboard:  + c (windows: Ctrl + c), Enter", text);
   }
 
 }
