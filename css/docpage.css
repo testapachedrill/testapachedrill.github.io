@@ -132,6 +132,23 @@ div.doc-nav span.next-toc {
   font-size: 24px;
   color: #333333;
 }
+div.int_title h1, div.main-content h1, div.main-content h2, div.main-content h3, div.main-content h4, div.main-content h5, div.main-content h6 {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  color: #313030;
+  margin: 0;
+  padding: 0;
+}
+div.section > h2, div.section > h3, div.section > h4 {
+  margin: 24px 0;
+}
+div.main-content h1, div.int_title h1 {
+  border-top: none;
+  font-size: 36px;
+  line-height: 48px;
+  padding: 0;
+}
 
 /*****************
  Code Blocks, Important
