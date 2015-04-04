@@ -4,6 +4,7 @@ Drill.Site = {
   init : function(){
     Drill.Site.watchExpandMenuClicks();
     Drill.Site.watchInternalAnchorClicks();
+    Drill.Site.watchSearchBarMouseEnter();
   },
 
   watchExpandMenuClicks : function(){
@@ -26,6 +27,17 @@ Drill.Site = {
 
   contractMenu: function() {
     $("#menu ul li").removeClass("force-expand");
+  },
+
+  watchSearchBarMouseEnter: function() {
+    $("#menu .search-bar input[type=text]").on({
+      focus: function(){
+        $(this).animate({ width: '125px' });
+      },
+      blur: function() {
+        $(this).animate({ width: '44px' });
+      }
+    })
   },
 
   watchInternalAnchorClicks : function() {
