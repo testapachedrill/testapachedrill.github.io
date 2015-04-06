@@ -1,8 +1,10 @@
 ---
 title: "Apache Drill in 10 Minutes"
 parent: "Install Drill"
+previous: "/docs/install-drill"
+next: "/docs/deploying-apache-drill-in-a-clustered-environment" 
 ---
-[Previous](/docs/install-drill)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/deploying-apache-drill-in-a-clustered-environment)
+
 
 * Objective
 * A Few Bits About Apache Drill

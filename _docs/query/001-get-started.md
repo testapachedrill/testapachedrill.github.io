@@ -1,9 +1,9 @@
 ---
 title: "Getting Started Tutorial"
 parent: "Query Data"
+previous: "/docs/query-data"
+next: "/docs/lesson-1-connect-to-data-sources"
 ---
-[Previous](/docs/query-data)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/lesson-1-connect-to-data-sources)
-
 ## Goal
 
 This tutorial covers how to query a file and a directory on your local file
