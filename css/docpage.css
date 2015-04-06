@@ -24,58 +24,8 @@ div.toc-categories a {
   text-decoration: none;
 }
 
-/******************
- Search Bar
-******************/
-
-.sidebar .doc-search-bar {
-  background-color: #1A6BC7;
-  padding:10px;
-  line-height: 36px;
-}
-
-.sidebar .doc-search-bar input[type='text'] {
-  border: none;
-  background-color: #1A6BC7;
-  border-bottom: solid 1px;
-  color: white;
-  font-family: lato;
-  font-size: 12px;
-  font-weight: inherit;
-  padding: 0px;
-  line-height: 20px;
-  width: 207px;
-}
-
-.sidebar .doc-search-bar button[type='submit'] {
-  display: inline;
-  border: none;
-  background:none;
-  position: relative;
-  color: white;
-  left: -5px;
-  top: 4px;
-  font-size: 14px;
-  cursor: pointer;
-}
-.sidebar .doc-search-bar ::-webkit-input-placeholder {
-   color: white;
-}
-
-.sidebar .doc-search-bar :-moz-placeholder { /* Firefox 18- */
-   color: white;  
-}
-
-.sidebar .doc-search-bar ::-moz-placeholder {  /* Firefox 19+ */
-   color: white;  
-}
-
-.sidebar .doc-search-bar :-ms-input-placeholder {  
-   color: white;
-}
-
 /****************
- Doc Nav
+ Docs Nav (Bottom)
 ****************/
 
 div.doc-nav {
@@ -85,6 +35,9 @@ div.doc-nav {
 }
 div.doc-nav a{
   text-decoration: none;
+}
+div.doc-nav a:hover{
+  text-decoration: underline;
 }
 div.doc-nav span.previous-toc {
   float: left;
@@ -124,10 +77,100 @@ div.doc-nav span.next-toc {
 .main-content .edit-link {
   position: relative;
   float: right;
-  bottom: 110px;
+  bottom: 100px;
   text-decoration: none;
   font-size: 24px;
   color: #333333;
+}
+div.int_title h1, div.main-content h1, div.main-content h2, div.main-content h3, div.main-content h4, div.main-content h5, div.main-content h6 {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  color: #313030;
+  margin: 0;
+  padding: 0;
+}
+div.section > h2, div.section > h3, div.section > h4 {
+  margin: 24px 0;
+}
+div.main-content h1, div.int_title h1 {
+  border-top: none;
+  font-size: 36px;
+  line-height: 48px;
+  padding: 0;
+}
+
+/*****************
+ Code Blocks, Important
+*****************/
+div.highlight pre, code {
+  background: #f5f6f7 url(/images/code-block-bg.png) 0 0 repeat;
+  border-radius: 0;
+  border: none;
+  border-left: 5px solid #494747;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  line-height: 24px;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+pre {
+  padding: 24px 12px;
+  color: #222;
+  margin: 24px 0;
+}
+code {
+  background: #f5f6f7 url(/images/code-block-bg.png) 0 0 repeat;
+  border-radius: 0;
+  border: none;
+  border-left: 5px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  line-height: 24px;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+div.admonition {
+  margin: 24px 0;
+  width: auto;
+  max-width: 100%;
+  padding: 2px 12px 22px 12px;
+  border-left: 5px solid transparent;
+}
+.admonition .admonition-title {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+.admonition > p {
+  margin: 0 0 12.5px 0;
+}
+.admonition p.first {
+  margin-top: 0 !important;
+}
+.admonition > p.last {
+  margin-bottom: 0;
+}
+.admonition .admonition-title:after {
+  content: ":";
+  font-weight: 900;
+}
+.admonition.important{
+  background-color: #fff2d5;
+  border-color: #ffb618;
+}
+.admonition.important .admonition-title {
+  color: #ffb618;
+}
+.admonition.note{
+  background-color: #edf4e8;
+  border-color: #6ba442;
 }
 
 /***************************
@@ -143,7 +186,8 @@ div.doc-nav span.next-toc {
   top: 50px;
   bottom: 0;
   left: 0;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   font-size: 0.85em;
   z-index: 100;
   transition: left 0.4s cubic-bezier(.02,.01,.47,1);
@@ -180,7 +224,7 @@ div.docsidebarwrapper ul {
 }
 div.docsidebar ul {
   list-style: none;
-  margin: 10px;
+  margin: 10px 0 10px 0;
   padding: 0;
   color: #000;
 }
@@ -209,7 +253,7 @@ div.docsidebar ul li {
 .docsidebarwrapper > ul > .toctree-l1 > a {
   font-size: 18px;
   line-height: 24px;
-  padding: 0 12px;
+  padding: 0 0 0 12px;
   width: 100%;
   display: inline-block;
 }
@@ -248,6 +292,13 @@ span.expand, span.contract{
 }
 span.contract {
   display: none;
+}
+
+.permalink
+{
+  text-decoration:none;
+  font-size: 70%;
+  color: #1A6BC7;
 }
 /****************************
 /* Responsive media queries

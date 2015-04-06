@@ -26,19 +26,6 @@ body {
 
 .nw { white-space:nowrap; }
 
-pre {
-    font-family: 'Consolas', 'DejaVu Sans Mono',
-                 'Bitstream Vera Sans Mono', monospace;
-    font-size: 13px;
-    letter-spacing: 0.015em;
-    line-height: 120%;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    background-color: #f8f8f8;
-		overflow: auto;
-}
-
 a.anchor {
 	display:none;
 	font-size:0px;
@@ -851,3 +838,70 @@ p.info {
 li p {
 	margin-top: 0px;
 }
+
+.hidden {
+  display:none;
+}
+
+/******************
+ Search Bar
+******************/
+
+#menu .search-bar {
+  padding:10px;
+  line-height: 36px;
+  margin: 0 20px 0 20px;
+}
+
+#menu .search-bar form {
+  border-radius: 6px;
+  border: solid 1px black;
+  background-color: #1A6BC7;
+}
+
+#menu .search-bar input[type='text'] {
+  border: none;
+  color: white;
+  background-color: transparent !important;
+  font-family: lato;
+  font-size: 14px;
+  font-weight: inherit;
+  padding: 0 0 0 8px;
+  line-height: 20px;
+  width: 44px;
+}
+#menu .search-bar input[placeholder] {
+  opacity: .7;
+}
+
+#menu .search-bar:hover {
+  background-color: black;
+}
+
+#menu .search-bar button[type='submit'] {
+  display: inline;
+  border: none;
+  background:none;
+  position: relative;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  width: 33px;
+}
+#menu .search-bar ::-webkit-input-placeholder {
+   color: white;
+}
+
+#menu .search-bar :-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+#menu .search-bar ::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+#menu .search-bar :-ms-input-placeholder {  
+   color: white;
+}
+
+
