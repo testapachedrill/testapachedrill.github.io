@@ -42,42 +42,36 @@ Drill.Site = {
 
   watchInternalAnchorClicks : function() {
     $("a.anchor").css({ display: "inline" });
-      if (location.hash) {
-        var hash = location.hash.replace("#","");
-        var aOffset = $('a[name='+hash+']').offset();
-        if (typeof aOffset !== 'undefined'){
-          $('html, body').animate({
-               'scrollTop': aOffset.top
-            }, 500);
-        }
-
-        // Offset page by the fixed menu's height when an internal anchor is present, i.e. /docs/json-data-model/#flatten-arrays
-        var idOffset = $('#'+hash).offset();
-        var fixedMenuHeight = $("#menu").height();
-        if (typeof idOffset !== 'undefined'){
-          $('html, body').animate({
-               'scrollTop': idOffset.top - fixedMenuHeight
-            }, 500);
-        }
-      }
-      /*
-      $("a[href~='#']").not("a[href^='http']").click(function(e) {
-        e.preventDefault();
-        var hash = $(this).attr("href").replace("#","");
-        var aOffset = $('a[name='+hash+']').offset();
-        $('html, body').animate({
-               'scrollTop': aOffset.top - 60
-            }, 500);	
-      });
-      */
+    Drill.Site.offsetHeader();
   },
 
   pathname : function(loc) {
     return (loc.protocol + '//' + loc.host + loc.pathname)
   },
 
+  offsetHeader : function() {
+    if (location.hash) {
+      var hash = location.hash.replace("#","");
+      var aOffset = $('a[name='+hash+']').offset();
+      if (typeof aOffset !== 'undefined'){
+        $('html, body').animate({
+             'scrollTop': aOffset.top
+          }, 500);
+      }
+
+      // Offset page by the fixed menu's height when an internal anchor is present, i.e. /docs/json-data-model/#flatten-arrays
+      var idOffset = $('#'+hash).offset();
+      var fixedMenuHeight = $("#menu").height();
+      if (typeof idOffset !== 'undefined'){
+        $('html, body').animate({
+             'scrollTop': idOffset.top - fixedMenuHeight
+          }, 500);
+      }
+    }
+  },
+
   copyToClipboard : function(text) {
-    return window.prompt("Copy to clipboard:  + c (windows: Ctrl + c), Enter", text);
+    return window.prompt("Copy permalink to clipboard:  + c (windows: Ctrl + c), Enter", text);
   }
 
 }
@@ -194,7 +188,10 @@ Drill.Docs = {
     })
 
     $(".main-content .permalink").on("click", function(){
-      Drill.Site.copyToClipboard(Drill.Site.pathname(location) + "#" + $(this).parent().attr('id'));
+      var hash = $(this).parent().attr('id');
+      window.location.hash = hash;
+      Drill.Site.offsetHeader();
+      //Drill.Site.copyToClipboard(Drill.Site.pathname(location) + "#" + hash);
     })
   }
 }
