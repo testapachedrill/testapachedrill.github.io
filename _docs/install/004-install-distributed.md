@@ -1,9 +1,9 @@
 ---
 title: "Installing Drill in Distributed Mode"
 parent: "Install Drill"
+previous: "/docs/installing-drill-on-windows"
+next: "/docs/connect-to-a-data-source"
 ---
-[Previous](/docs/installing-drill-on-windows)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/connect-to-a-data-source)
-
 You can install Apache Drill in distributed mode on one or multiple nodes to
 run it in a clustered environment.
 

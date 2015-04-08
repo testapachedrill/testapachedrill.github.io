@@ -1,9 +1,9 @@
 ---
 title: "Deploying Apache Drill in a Clustered Environment"
 parent: "Install Drill"
+previous: "/docs/apache-drill-in-10-minutes"
+next: "/docs/installing-drill-in-embedded-mode"
 ---
-[Previous](/docs/apache-drill-in-10-minutes
-)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/installing-drill-in-embedded-mode)
 
 ## Overview
 

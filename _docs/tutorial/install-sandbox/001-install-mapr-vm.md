@@ -1,8 +1,9 @@
 ---
 title: "Installing the MapR Sandbox with Apache Drill on VMware Player/VMware Fusion"
 parent: "Installing the Apache Drill Sandbox"
+previous: "/docs/installing-the-apache-drill-sandbox"
+next: "/docs/installing-the-mapr-sandbox-with-apache-drill-on-virtualbox"
 ---
-[Previous](/docs/installing-the-apache-drill-sandbox)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/installing-the-mapr-sandbox-with-apache-drill-on-virtualbox)
 
 Complete the following steps to install the MapR Sandbox with Apache Drill on
 VMware Player or VMware Fusion:

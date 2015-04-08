@@ -1,9 +1,9 @@
 ---
 title: "Step 2. Configure ODBC Connections to Drill Data Sources"
 parent: "Using the MapR ODBC Driver on Windows"
+previous: "/docs/step-1-install-the-mapr-drill-odbc-driver-on-windows"
+next: "/docs/step-3-connect-to-drill-data-sources-from-a-bi-tool"
 ---
-[Previous](/docs/step-1-install-the-mapr-drill-odbc-driver-on-windows)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/step-3-connect-to-drill-data-sources-from-a-bi-tool)
-
 Complete one of the following steps to create an ODBC connection to Drill data
 sources:
 

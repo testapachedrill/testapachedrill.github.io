@@ -1,9 +1,9 @@
 ---
 title: "Testing the ODBC Connection on Linux and Mac OS X"
 parent: "Using the MapR ODBC Driver on Linux and Mac OS X"
+previous: "/docs/advanced-properties"
+next: "/docs/using-the-mapr-odbc-driver-on-windows"
 ---
-[Previous](/docs/advanced-properties)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/using-the-mapr-odbc-driver-on-windows)
-
 To test the connection, you can use an ODBC-enabled client application. For a
 basic connection test, you can also use the test utilities that are packaged
 with your driver manager installation.

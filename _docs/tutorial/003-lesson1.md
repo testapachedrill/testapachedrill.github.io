@@ -1,8 +1,9 @@
 ---
 title: "Lession 1: Learn about the Data Set"
 parent: "Apache Drill Tutorial"
+previous: "/docs/getting-to-know-the-drill-sandbox"
+next: "/docs/lession-2-run-queries-with-ansi-sql"
 ---
-[Previous](/docs/getting-to-know-the-drill-sandbox)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Back to Table of Contents](/docs)<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>[Next](/docs/lession-2-run-queries-with-ansi-sql)
 
 ## Goal
 
