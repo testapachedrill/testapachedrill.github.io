@@ -12,7 +12,8 @@ html {
 }
 
 body {
-	font-family:"Lato";
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family:"Lato";*/
 	padding:0;
   margin: 0;
   height: 100%;
